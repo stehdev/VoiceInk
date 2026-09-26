@@ -23,7 +23,7 @@ struct OpenRouterRequestPolicy {
             provider: OpenRouterProviderPreferences(
                 sort: .throughput,
                 preferredMaxLatency: OpenRouterPercentileThresholds(p90: 2.5),
-                requireParameters: true,
+                requireParameters: false,
                 allowFallbacks: true
             )
         )
